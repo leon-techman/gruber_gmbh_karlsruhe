@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gartengestaltung Weingarten | Gruber GmbH – Pool, Terrasse & Landschaftsbau</title>
+<meta name="description" content="Gruber GmbH – Gartengestaltung & Landschaftsbau in Weingarten (Baden). Pool, Terrasse, Naturstein, Bewässerung. Fachbetrieb seit 2002. Angebot: 07244 720335"/>
+<meta name="geo.region" content="DE-BW"/>
+<meta name="geo.placename" content="Weingarten (Baden)"/>
+<meta name="geo.position" content="49.0500;8.5167"/>
+<link rel="canonical" href="https://gruber-weingarten.de/"/>
+<meta name="robots" content="index,follow"/>
+<meta property="og:title" content="Gartengestaltung Weingarten | Gruber GmbH"/>
+<meta property="og:description" content="Garten- & Landschaftsbau seit 2002. Pool, Terrasse, Naturstein. GaLa-Bau Fachbetrieb BW."/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="de_DE"/>
+<meta property="og:url" content="https://gruber-weingarten.de/"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet"/>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":["LocalBusiness","LandscapingBusiness"],"name":"Gruber GmbH Garten- und Landschaftsbau","description":"Fachbetrieb für Garten- und Landschaftsbau in Weingarten (Baden) seit 2002.","url":"https://gruber-weingarten.de","telephone":"+497244720335","email":"info@gruber-weingarten.de","address":{"@type":"PostalAddress","streetAddress":"Rudolf-Diesel-Straße 10","addressLocality":"Weingarten (Baden)","postalCode":"76356","addressCountry":"DE"},"geo":{"@type":"GeoCoordinates","latitude":49.05,"longitude":8.5167},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"12:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"14:00","closes":"16:00"}],"areaServed":["Weingarten","Karlsruhe","Ettlingen","Rastatt","Bruchsal","Bretten","Stutensee","Pfinztal","Rheinstetten","Durmersheim","Malsch","Muggensturm","Baden-Baden","Gaggenau"],"priceRange":"€€–€€€","foundingDate":"2002","numberOfEmployees":{"@type":"QuantitativeValue","value":20},"sameAs":["https://www.facebook.com/grubergartenbau","https://www.instagram.com/gruber.gartenlandschaftsbau"]}
+</script>
+<style>
+/* ══════════════════════════════
+   TOKENS — WARM BOTANICAL EARTH
+══════════════════════════════ */
+:root {
+  --humus:       #060705;        /* deepest earth */
+  --base:        #090C06;        /* forest floor */
+  --layer:       #0F1509;        /* moss dark */
+  --layer-2:     #161D0D;        /* fern shadow */
+  --layer-3:     #1E2B11;        /* undergrowth */
+  --primary:     #5C8A38;        /* leaf green */
+  --primary-h:   #6FA644;        /* bright leaf */
+  --primary-glow:rgba(92,138,56,0.2);
+  --amber:       #B8722A;        /* rich terracotta */
+  --amber-h:     #CC8A40;
+  --amber-glow:  rgba(184,114,42,0.22);
+  --soil:        #7A5230;        /* earth brown */
+  --stone:       #C4A882;        /* warm naturstein */
+  --text:        #EDE5D0;        /* warm parchment */
+  --text-2:      #94A87E;        /* sage */
+  --text-3:      #506042;        /* deep moss */
+  --border:      rgba(255,255,255,0.055);
+  --border-m:    rgba(255,255,255,0.11);
+  --font-disp:   'Cormorant Garamond', Georgia, serif;
+  --font-ui:     'DM Sans', system-ui, sans-serif;
+  --ease:        cubic-bezier(0.19,1,0.22,1);
+  --ease-s:      cubic-bezier(0.4,0,0.2,1);
+  --t-fast:      0.18s;
+  --t-mid:       0.42s;
+  --t-slow:      0.75s;
+  --r:           8px;
+  --r-lg:        16px;
+  --r-xl:        24px;
+}
+
+/* ══════════════════════════════
+   RESET & BASE
+══════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-ui);background:var(--humus);color:var(--text);line-height:1.65;overflow-x:hidden;cursor:none}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{cursor:none;border:none;background:none;font-family:var(--font-ui)}
+ul{list-style:none}
+input,textarea,select{font-family:var(--font-ui)}
+
+/* ══════════════════════════════
+   CUSTOM CURSOR
+══════════════════════════════ */
+@media(hover:hover){
+  .cur-dot{position:fixed;width:9px;height:9px;border-radius:50%;background:var(--primary);pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:width .15s,height .15s}
+  .cur-ring{position:fixed;width:32px;height:32px;border-radius:50%;border:1.5px solid rgba(92,138,56,0.45);pointer-events:none;z-index:9998;transform:translate(-50%,-50%)}
+  body.hovering .cur-dot{width:16px;height:16px}
+  body.hovering .cur-ring{width:46px;height:46px;border-color:rgba(92,138,56,0.2)}
+}
+
+/* ══════════════════════════════
+   TYPOGRAPHY
+══════════════════════════════ */
+h1{font-family:var(--font-disp);font-weight:400;font-size:clamp(3.2rem,7.5vw,6.5rem);line-height:1.0;letter-spacing:-0.025em}
+h2{font-family:var(--font-disp);font-weight:400;font-size:clamp(2.2rem,4.5vw,4rem);line-height:1.08;letter-spacing:-0.02em}
+h3{font-family:var(--font-disp);font-weight:400;font-size:clamp(1.6rem,2.5vw,2.4rem);line-height:1.15}
+h4{font-size:clamp(1rem,1.3vw,1.12rem);font-weight:500;line-height:1.3}
+p{font-size:clamp(0.88rem,1.05vw,1rem);font-weight:300;color:var(--text-2);line-height:1.75}
+em.herb{font-style:italic;color:var(--primary);font-family:var(--font-disp);font-size:1.08em}
+
+/* ══════════════════════════════
+   LAYOUT
+══════════════════════════════ */
+.container{max-width:1200px;margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem)}
+.section{padding:clamp(4.5rem,9vw,8rem) 0;position:relative}
+.label{font-size:0.7rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--primary);display:flex;align-items:center;gap:0.7rem;margin-bottom:1.25rem}
+.label::before{content:'';display:block;width:24px;height:1.5px;background:var(--primary);flex-shrink:0}
+
+/* Reveal */
+[data-reveal]{opacity:0;transition:opacity var(--t-slow) var(--ease),transform var(--t-slow) var(--ease)}
+[data-reveal="up"]{transform:translateY(36px)}
+[data-reveal="left"]{transform:translateX(-36px)}
+[data-reveal="right"]{transform:translateX(36px)}
+[data-reveal="scale"]{transform:scale(0.95)}
+[data-reveal].in{opacity:1;transform:none}
+[data-d="1"]{transition-delay:.08s}[data-d="2"]{transition-delay:.18s}[data-d="3"]{transition-delay:.3s}[data-d="4"]{transition-delay:.44s}[data-d="5"]{transition-delay:.58s}
+
+/* ══════════════════════════════
+   BUTTONS
+══════════════════════════════ */
+.btn{display:inline-flex;align-items:center;gap:0.55rem;padding:0.88rem 1.9rem;border-radius:60px;font-size:0.85rem;font-weight:500;letter-spacing:0.04em;transition:transform var(--t-fast) var(--ease),box-shadow var(--t-mid) var(--ease),background var(--t-fast);position:relative;overflow:hidden}
+.btn:hover{transform:translateY(-2px)}
+.btn-leaf{background:var(--primary);color:#fff;box-shadow:0 2px 0 rgba(0,0,0,0.3)}
+.btn-leaf:hover{background:var(--primary-h);box-shadow:0 6px 28px var(--primary-glow)}
+.btn-earth{background:var(--amber);color:#fff}
+.btn-earth:hover{background:var(--amber-h);box-shadow:0 6px 28px var(--amber-glow)}
+.btn-outline{background:transparent;color:var(--text);border:1.5px solid var(--border-m);border-radius:60px}
+.btn-outline:hover{border-color:rgba(255,255,255,0.28);color:#fff}
+.btn→::after{content:'→';transition:transform var(--t-fast)}
+.btn→:hover::after{transform:translateX(4px)}
+
+/* ══════════════════════════════
+   BOTANICAL DECORATORS (shared SVG motifs)
+══════════════════════════════ */
+.leaf-deco{position:absolute;pointer-events:none;opacity:0.06}
+.leaf-deco-amber{position:absolute;pointer-events:none;opacity:0.05}
+
+/* ══════════════════════════════
+   NAV
+══════════════════════════════ */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.35rem 0;transition:padding var(--t-mid) var(--ease),background var(--t-mid),border-color var(--t-mid);border-bottom:1px solid transparent}
+.nav.stuck{padding:0.8rem 0;background:rgba(9,12,6,0.9);backdrop-filter:blur(28px);-webkit-backdrop-filter:blur(28px);border-color:var(--border)}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem);display:flex;align-items:center;gap:1.5rem}
+.nav-logo{display:flex;flex-direction:column}
+.nav-wordmark{font-family:var(--font-disp);font-size:1.5rem;font-weight:500;color:var(--text);line-height:1;letter-spacing:-0.01em}
+.nav-sub{font-size:0.6rem;color:var(--text-3);letter-spacing:0.14em;text-transform:uppercase;margin-top:2px}
+.nav-links{display:flex;align-items:center;gap:0.15rem;margin-left:auto}
+.nav-links a{font-size:0.8rem;font-weight:400;color:var(--text-2);padding:0.5rem 0.75rem;border-radius:30px;transition:color var(--t-fast),background var(--t-fast)}
+.nav-links a:hover{color:var(--text);background:var(--border)}
+.nav-dd{position:relative}
+.nav-dd-menu{position:absolute;top:calc(100% + 10px);left:0;background:var(--layer-2);border:1px solid var(--border-m);border-radius:var(--r-lg);padding:0.5rem;min-width:210px;opacity:0;pointer-events:none;transform:translateY(-6px);transition:opacity var(--t-mid),transform var(--t-mid) var(--ease)}
+.nav-dd:hover .nav-dd-menu{opacity:1;pointer-events:all;transform:none}
+.nav-dd-menu a{display:block;padding:0.45rem 0.75rem;border-radius:var(--r);margin:0;font-size:0.8rem}
+.nav-phone{font-size:0.8rem;font-weight:500;color:var(--text-2);display:flex;align-items:center;gap:0.4rem;padding:0.5rem 0.9rem;border-radius:30px;border:1px solid var(--border);margin-left:0.5rem;transition:all var(--t-fast)}
+.nav-phone:hover{color:var(--text);border-color:var(--border-m)}
+.nav-cta{margin-left:0.5rem}
+.burger{display:none;width:42px;height:42px;align-items:center;justify-content:center;flex-direction:column;gap:5px;border:1px solid var(--border);border-radius:30px;margin-left:auto}
+.burger span{display:block;width:18px;height:1.5px;background:var(--text-2);transition:all var(--t-mid) var(--ease)}
+.burger.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.burger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.burger.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+.drawer{position:fixed;inset:0;z-index:99;background:rgba(9,12,6,0.97);backdrop-filter:blur(20px);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:0.75rem;opacity:0;pointer-events:none;transition:opacity var(--t-mid)}
+.drawer.open{opacity:1;pointer-events:all}
+.drawer a{font-family:var(--font-disp);font-size:2.2rem;font-weight:400;color:var(--text-2);padding:0.2rem 1rem;transition:color var(--t-fast)}
+.drawer a:hover{color:var(--text)}
+.drawer .drawer-cta{margin-top:1.5rem}
+
+/* ══════════════════════════════
+   HERO
+══════════════════════════════ */
+.hero{min-height:100svh;display:grid;grid-template-columns:1fr 1fr;background:var(--base);overflow:hidden;position:relative;padding-top:5rem}
+
+/* Botanical background */
+.hero-botanical{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.hero-botanical svg{position:absolute;inset:0;width:100%;height:100%}
+
+.hero-content{display:flex;flex-direction:column;justify-content:center;padding:clamp(3rem,5vw,5rem);padding-right:2rem;position:relative;z-index:2}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.68rem;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--primary);margin-bottom:2rem;animation:fadeUp .7s var(--ease) .15s both}
+.hero-eyebrow .dot{width:5px;height:5px;border-radius:50%;background:var(--primary);animation:breathe 3s ease-in-out infinite}
+.hero h1{animation:fadeUp .7s var(--ease) .3s both;margin-bottom:1.5rem}
+.hero h1 span{display:block}
+.hero h1 .italic-line{font-style:italic;color:var(--primary)}
+.hero-sub{font-size:clamp(1rem,1.2vw,1.08rem);color:var(--text-2);max-width:430px;line-height:1.8;margin-bottom:2.5rem;animation:fadeUp .7s var(--ease) .5s both;font-weight:300}
+.hero-ctas{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;animation:fadeUp .7s var(--ease) .65s both}
+.hero-micro{font-size:0.7rem;color:var(--text-3);letter-spacing:0.07em;margin-top:0.85rem;animation:fadeUp .7s var(--ease) .75s both}
+.hero-trust{display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;margin-top:2.5rem;padding-top:2rem;border-top:1px solid var(--border);animation:fadeUp .7s var(--ease) .85s both}
+.trust-stars .stars{color:var(--amber);font-size:0.85rem;letter-spacing:2px}
+.trust-stars .score{font-weight:500;color:var(--text);font-size:0.85rem}
+.trust-stars .count{font-size:0.72rem;color:var(--text-2)}
+.t-sep{width:1px;height:20px;background:var(--border-m)}
+.t-badge{font-size:0.72rem;color:var(--text-2);display:flex;align-items:center;gap:0.35rem}
+.t-badge .leaf-dot{width:6px;height:6px;border-radius:50%;background:var(--primary)}
+
+/* Hero visual */
+.hero-visual{position:relative;overflow:hidden}
+.hero-img{
+  position:absolute;inset:0;
+  background-image:url('https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=1400&q=80');
+  background-size:cover;background-position:center;
+}
+.hero-img::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,rgba(6,7,5,0.55) 0%,rgba(6,7,5,0.15) 60%,rgba(6,7,5,0.08) 100%)}
+.hero-img-noise{position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.07'/%3E%3C/svg%3E");mix-blend-mode:overlay;opacity:0.4}
+
+/* Floating card on hero visual */
+.hero-card{position:absolute;bottom:2.5rem;left:2rem;background:rgba(12,18,7,0.82);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.1);border-radius:var(--r-xl);padding:1.1rem 1.4rem;animation:float 6s ease-in-out infinite}
+.hero-card-val{font-family:var(--font-disp);font-size:2.2rem;font-weight:400;color:var(--text);line-height:1}
+.hero-card-val em{color:var(--primary);font-style:normal}
+.hero-card-sub{font-size:0.7rem;color:var(--text-2);margin-top:0.2rem}
+
+/* Scroll hint */
+.scroll-hint{position:absolute;bottom:2rem;right:2rem;display:flex;flex-direction:column;align-items:center;gap:0.6rem}
+.scroll-line{width:1.5px;height:44px;background:linear-gradient(to bottom,var(--primary),transparent);animation:scroll-breath 2.4s ease-in-out infinite}
+.scroll-hint span{writing-mode:vertical-rl;font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--text-3)}
+
+/* Stats bar */
+.stats-bar{grid-column:1/-1;background:var(--layer);border-top:1px solid var(--border);display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:1.5rem clamp(1.25rem,2.5vw,2.25rem);border-right:1px solid var(--border);position:relative}
+.stat:last-child{border-right:none}
+.stat-n{font-family:var(--font-disp);font-size:clamp(2.2rem,3.5vw,3rem);font-weight:400;color:var(--text);line-height:1}
+.stat-n em{color:var(--primary);font-style:normal}
+.stat-l{font-size:0.73rem;color:var(--text-2);font-weight:300;margin-top:0.15rem}
+
+/* ══════════════════════════════
+   TICKER
+══════════════════════════════ */
+.ticker{background:linear-gradient(90deg,#2A4A14,#3A5E1C,#2A4A14);border-bottom:1px solid rgba(0,0,0,0.25);overflow:hidden;padding:0.85rem 0}
+.ticker-track{display:flex;width:max-content;animation:ticker 38s linear infinite}
+.ticker-track:hover{animation-play-state:paused}
+.ticker-item{display:flex;align-items:center;gap:1rem;padding:0 2rem;white-space:nowrap;font-size:0.78rem;font-weight:400;letter-spacing:0.07em;color:rgba(220,240,200,0.85)}
+.ticker-item .sep{color:rgba(154,168,126,0.5);font-size:0.6rem}
+
+/* ══════════════════════════════
+   USP STRIP
+══════════════════════════════ */
+.usp-strip{background:var(--layer);border-bottom:1px solid var(--border);overflow:hidden;position:relative}
+/* subtle leaf pattern in background */
+.usp-strip::before{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cellipse cx='40' cy='40' rx='18' ry='32' fill='none' stroke='%235C8A38' stroke-width='0.5' opacity='0.12' transform='rotate(-20 40 40)'/%3E%3C/svg%3E");background-size:80px 80px;pointer-events:none;opacity:0.5}
+.usp-grid{display:grid;grid-template-columns:repeat(4,1fr);position:relative}
+.usp{padding:clamp(1.75rem,3vw,2.5rem);border-right:1px solid var(--border);transition:background var(--t-mid)}
+.usp:last-child{border-right:none}
+.usp:hover{background:var(--layer-2)}
+.usp-leaf{margin-bottom:1rem}
+.usp-leaf svg{width:28px;height:28px;fill:none;stroke:var(--primary);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.usp-title{font-size:0.9rem;font-weight:500;color:var(--text);margin-bottom:0.5rem;line-height:1.3}
+.usp-desc{font-size:0.78rem;color:var(--text-2);line-height:1.65;font-weight:300}
+
+/* ══════════════════════════════
+   LEISTUNGEN
+══════════════════════════════ */
+.services{background:var(--base);overflow:hidden}
+.services-head{display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;margin-bottom:3rem;flex-wrap:wrap}
+/* Organic cards – rounded, warm */
+.srv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+.srv-card{background:var(--layer);border:1px solid var(--border);border-radius:var(--r-xl);padding:clamp(1.5rem,2.5vw,2.25rem);position:relative;overflow:hidden;transition:background var(--t-mid),border-color var(--t-mid),transform var(--t-mid) var(--ease)}
+.srv-card:hover{background:var(--layer-2);border-color:var(--border-m);transform:translateY(-3px)}
+.srv-card.feat{grid-column:1/3}
+/* Botanical corner on feature card */
+.srv-card.feat::after{content:'';position:absolute;top:0;right:0;width:180px;height:180px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Cpath d='M160 20 Q130 20 110 50 Q90 80 100 110 Q110 140 140 150' fill='none' stroke='%235C8A38' stroke-width='1.2' opacity='0.12'/%3E%3Cellipse cx='95' cy='65' rx='22' ry='35' fill='none' stroke='%235C8A38' stroke-width='0.9' opacity='0.1' transform='rotate(-35 95 65)'/%3E%3Cellipse cx='125' cy='95' rx='18' ry='28' fill='none' stroke='%235C8A38' stroke-width='0.9' opacity='0.1' transform='rotate(-50 125 95)'/%3E%3C/svg%3E") no-repeat center;pointer-events:none}
+.srv-n{font-family:var(--font-disp);font-size:0.7rem;color:var(--text-3);letter-spacing:0.14em;text-transform:uppercase;margin-bottom:1rem}
+.srv-icon{width:46px;height:46px;border-radius:50%;background:rgba(92,138,56,0.12);display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem;transition:background var(--t-mid)}
+.srv-card:hover .srv-icon{background:rgba(92,138,56,0.22)}
+.srv-icon svg{width:22px;height:22px;fill:none;stroke:var(--primary);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.srv-card h4{color:var(--text);margin-bottom:0.5rem}
+.srv-card p{font-size:0.8rem;color:var(--text-2);line-height:1.7;font-weight:300}
+.srv-tags{display:flex;flex-wrap:wrap;gap:0.35rem;margin-top:0.9rem}
+.tag{font-size:0.65rem;padding:0.2rem 0.65rem;border:1px solid var(--border);border-radius:20px;color:var(--text-3);background:rgba(255,255,255,0.02)}
+.srv-link{display:inline-flex;align-items:center;gap:0.35rem;font-size:0.75rem;color:var(--primary);margin-top:1.1rem;font-weight:400;transition:gap var(--t-fast)}
+.srv-link::after{content:'→'}
+.srv-card:hover .srv-link{gap:0.65rem}
+
+/* ══════════════════════════════
+   ÜBER UNS
+══════════════════════════════ */
+.about{background:var(--layer);overflow:hidden;position:relative}
+/* Botanical watermark behind the section */
+.about-botanical{position:absolute;right:-60px;bottom:-60px;width:340px;opacity:0.035;pointer-events:none}
+.about-inner{display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,6vw,6rem);align-items:center}
+.about-vis{position:relative}
+.about-photo{border-radius:var(--r-xl);overflow:hidden;aspect-ratio:3/4;
+  background-image:url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80');
+  background-size:cover;background-position:center;
+/* 📸 Foto Taijp Iljazi / Team auf der Baustelle */}
+.about-stat{position:absolute;bottom:-1.25rem;right:-1.25rem;background:var(--layer-2);border:1px solid var(--border-m);border-radius:var(--r-lg);padding:1.1rem 1.35rem;box-shadow:0 20px 50px rgba(0,0,0,0.5)}
+.about-stat-n{font-family:var(--font-disp);font-size:2.8rem;font-weight:400;color:var(--text);line-height:1}
+.about-stat-n em{color:var(--primary);font-style:normal}
+.about-stat-l{font-size:0.7rem;color:var(--text-2);margin-top:0.2rem}
+.about-text{display:flex;flex-direction:column;gap:1.25rem}
+.about-text p{line-height:1.85}
+.about-quote{border-left:2px solid var(--primary);padding:0.75rem 1.25rem;background:rgba(92,138,56,0.06);border-radius:0 var(--r) var(--r) 0}
+.about-quote p{font-family:var(--font-disp);font-size:1.1rem;font-style:italic;color:var(--text);font-weight:400}
+.about-quote cite{font-size:0.72rem;color:var(--text-3);font-style:normal;display:block;margin-top:0.35rem}
+.strengths{display:flex;flex-direction:column;gap:0.65rem}
+.str-item{display:flex;align-items:flex-start;gap:0.7rem;padding:0.85rem 1rem;background:var(--base);border:1px solid var(--border);border-radius:var(--r-lg)}
+.str-leaf{flex-shrink:0;margin-top:2px}
+.str-leaf svg{width:16px;height:16px;fill:none;stroke:var(--primary);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.str-item strong{display:block;font-size:0.86rem;font-weight:500;color:var(--text);margin-bottom:0.1rem}
+.str-item span{font-size:0.77rem;color:var(--text-2);font-weight:300}
+.certs{display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.5rem}
+.cert{font-size:0.7rem;color:var(--text-2);padding:0.35rem 0.85rem;border:1px solid var(--border-m);border-radius:20px;display:flex;align-items:center;gap:0.35rem}
+.cert::before{content:'✦';color:var(--primary);font-size:0.55rem}
+
+/* ══════════════════════════════
+   PROJEKTE
+══════════════════════════════ */
+.projects{background:var(--base)}
+.proj-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:300px 260px;gap:1rem;margin-top:3rem}
+.proj-card{border-radius:var(--r-xl);overflow:hidden;position:relative;cursor:none}
+.proj-card.big{grid-column:1/2;grid-row:1/3}
+.proj-photo{position:absolute;inset:0;transition:transform .6s var(--ease)}
+.proj-card:hover .proj-photo{transform:scale(1.05)}
+/* Warm garden photo placeholders */
+.p1{background-image:url('https://images.unsplash.com/photo-1633330948542-0b3bdeefcdb3?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center}
+.p2{background-image:url('https://images.unsplash.com/photo-1579625462317-e1475a3906dd?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center}
+.p3{background-image:url('https://images.unsplash.com/photo-1444392061186-9fc38f84f726?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center}
+.p4{background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center}
+.p5{background-image:url('https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center}
+/* Darken foerderung photo so badge text is readable */
+.foerderung-vis::before{content:'';position:absolute;inset:0;background:rgba(6,7,5,0.25);z-index:0;border-radius:var(--r-xl)}
+.foerderung-vis .f-badge{position:relative;z-index:1}
+.proj-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(6,7,5,0.92) 0%,rgba(6,7,5,0.15) 55%,transparent 100%);display:flex;flex-direction:column;justify-content:flex-end;padding:1.5rem}
+.proj-cat{font-size:0.62rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--primary);font-weight:500;margin-bottom:0.35rem}
+.proj-title{font-size:clamp(0.9rem,1.3vw,1rem);font-weight:500;color:var(--text);line-height:1.3}
+.proj-meta{display:flex;gap:0.75rem;margin-top:0.4rem}
+.proj-loc,.proj-yr{font-size:0.68rem;color:var(--text-2)}
+
+/* ══════════════════════════════
+   FÖRDERUNG
+══════════════════════════════ */
+.foerderung{background:var(--layer);border-top:1px solid var(--border);overflow:hidden;position:relative}
+.foerderung-inner{display:grid;grid-template-columns:1fr 1fr;gap:clamp(3rem,6vw,6rem);align-items:center}
+.foerderung-content h2{margin-bottom:1.25rem}
+.foerderung-content>p{line-height:1.85;margin-bottom:2rem}
+.f-items{display:flex;flex-direction:column;gap:0.85rem}
+.f-item{display:flex;gap:1rem;padding:1.1rem;background:var(--base);border:1px solid var(--border);border-radius:var(--r-lg);transition:border-color var(--t-fast)}
+.f-item:hover{border-color:var(--border-m)}
+.f-icon{width:36px;height:36px;border-radius:50%;background:rgba(184,114,42,0.12);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.f-icon svg{width:17px;height:17px;fill:none;stroke:var(--amber);stroke-width:1.8;stroke-linecap:round}
+.f-item strong{display:block;font-size:0.86rem;font-weight:500;color:var(--text);margin-bottom:0.2rem}
+.f-item span{font-size:0.77rem;color:var(--text-2);line-height:1.6;font-weight:300}
+.foerderung-vis{border-radius:var(--r-xl);overflow:hidden;aspect-ratio:3/4;position:relative;
+  background-image:url('https://images.unsplash.com/photo-1600240644455-3edc55c375fe?auto=format&fit=crop&w=800&q=80');
+  background-size:cover;background-position:center;
+  display:flex;align-items:flex-end;padding:1.75rem
+/* 📸 Fertiggestellte Terrassenanlage oder Poolbereich */}
+.f-badge{width:100%;background:rgba(9,12,6,0.85);backdrop-filter:blur(12px);border:1px solid var(--border-m);border-radius:var(--r-lg);padding:1.25rem;text-align:center}
+.f-badge-val{font-family:var(--font-disp);font-size:1.85rem;font-style:italic;color:var(--amber)}
+.f-badge-sub{font-size:0.72rem;color:var(--text-2);margin-top:0.2rem}
+
+/* ══════════════════════════════
+   PROZESS
+══════════════════════════════ */
+.process{background:var(--base);overflow:hidden;position:relative}
+/* faint leaf pattern over section */
+.process::before{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cellipse cx='60' cy='60' rx='24' ry='42' fill='none' stroke='%235C8A38' stroke-width='0.6' opacity='0.09' transform='rotate(-30 60 60)'/%3E%3C/svg%3E");background-size:120px 120px;pointer-events:none}
+.proc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem;position:relative;margin-top:3rem}
+.proc-step{background:var(--layer);border:1px solid var(--border);border-radius:var(--r-xl);padding:clamp(1.5rem,2.5vw,2.25rem);position:relative;overflow:hidden}
+.proc-ghost{position:absolute;bottom:-0.5rem;right:0.5rem;font-family:var(--font-disp);font-size:7rem;font-weight:600;color:var(--primary);opacity:0.04;line-height:1;pointer-events:none;transition:opacity var(--t-mid)}
+.proc-step:hover .proc-ghost{opacity:0.08}
+.proc-n{font-size:0.65rem;color:var(--text-3);font-weight:500;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:0.75rem}
+.proc-icon{width:40px;height:40px;border-radius:50%;background:rgba(92,138,56,0.1);display:flex;align-items:center;justify-content:center;margin-bottom:1.1rem}
+.proc-icon svg{width:19px;height:19px;fill:none;stroke:var(--primary);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.proc-step h4{color:var(--text);margin-bottom:0.5rem}
+.proc-step p{font-size:0.79rem;color:var(--text-2);line-height:1.7;font-weight:300}
+
+/* ══════════════════════════════
+   BEWERTUNGEN
+══════════════════════════════ */
+.reviews{background:var(--layer);border-top:1px solid var(--border)}
+.rev-inner{display:grid;grid-template-columns:260px 1fr;gap:clamp(3rem,5vw,5rem);align-items:start}
+.rev-score-big{font-family:var(--font-disp);font-size:5.5rem;font-weight:300;color:var(--text);line-height:1}
+.rev-stars{color:var(--amber);font-size:1.3rem;letter-spacing:3px;margin-top:-0.3rem}
+.rev-count{font-size:0.77rem;color:var(--text-2);margin-top:0.25rem}
+.rev-bars{margin-top:1rem}
+.rev-bar{display:flex;align-items:center;gap:0.75rem;margin-bottom:0.4rem}
+.rev-bar-lbl{font-size:0.7rem;color:var(--text-2);width:18px;text-align:right}
+.rev-bar-track{flex:1;height:4px;background:var(--border-m);border-radius:2px;overflow:hidden}
+.rev-bar-fill{height:100%;background:var(--amber);border-radius:2px}
+.g-badge{display:flex;align-items:center;gap:0.4rem;padding:0.4rem 0.8rem;background:var(--base);border:1px solid var(--border);border-radius:20px;font-size:0.7rem;color:var(--text-2);margin-top:1rem;width:fit-content}
+.g-dot{width:7px;height:7px;border-radius:50%}
+.rev-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.rev-card{background:var(--base);border:1px solid var(--border);border-radius:var(--r-xl);padding:1.5rem;display:flex;flex-direction:column;gap:0.75rem;transition:border-color var(--t-mid)}
+.rev-card:hover{border-color:var(--border-m)}
+.rev-s{color:var(--amber);font-size:0.8rem;letter-spacing:2px}
+.rev-t{font-size:0.8rem;color:var(--text-2);line-height:1.7;font-weight:300;flex:1;font-style:italic}
+.rev-author{display:flex;align-items:center;gap:0.55rem}
+.rev-av{width:30px;height:30px;border-radius:50%;background:rgba(92,138,56,0.12);display:flex;align-items:center;justify-content:center;font-size:0.7rem;font-weight:600;color:var(--primary);flex-shrink:0}
+.rev-name{font-size:0.78rem;font-weight:500;color:var(--text)}
+.rev-date{font-size:0.68rem;color:var(--text-3)}
+
+/* ══════════════════════════════
+   EINSATZGEBIET
+══════════════════════════════ */
+.area{background:var(--base);overflow:hidden;position:relative}
+.area-inner{display:grid;grid-template-columns:1fr 1.15fr;gap:clamp(3rem,5vw,5rem);align-items:center}
+.area-content p{line-height:1.85}
+.area-cities{display:flex;flex-wrap:wrap;gap:0.45rem;margin-top:1.5rem}
+.city{font-size:0.73rem;padding:0.35rem 0.85rem;background:var(--layer);border:1px solid var(--border);border-radius:20px;color:var(--text-2);transition:all var(--t-fast);cursor:default}
+.city:hover{background:rgba(92,138,56,0.1);border-color:rgba(92,138,56,0.28);color:var(--primary)}
+.city.main{background:rgba(92,138,56,0.1);border-color:rgba(92,138,56,0.28);color:var(--primary);font-weight:500}
+.area-vis{position:relative;display:flex;align-items:center;justify-content:center}
+.area-radar{width:100%;max-width:370px}
+
+/* ══════════════════════════════
+   FAQ
+══════════════════════════════ */
+.faq{background:var(--layer);border-top:1px solid var(--border);overflow:hidden;position:relative}
+.faq::before{content:'';position:absolute;left:-80px;top:-80px;width:320px;height:320px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 320'%3E%3Cpath d='M160 40 C80 40 40 120 80 180 C120 240 220 220 240 160 C260 100 200 40 160 40Z' fill='none' stroke='%235C8A38' stroke-width='1' opacity='0.15'/%3E%3Cpath d='M160 40 L160 280' stroke='%235C8A38' stroke-width='0.6' opacity='0.1'/%3E%3Cpath d='M80 160 L240 160' stroke='%235C8A38' stroke-width='0.6' opacity='0.1'/%3E%3C/svg%3E") no-repeat center;pointer-events:none;opacity:0.6}
+.faq-hd{text-align:center;margin-bottom:3rem}
+.faq-hd h2{margin-bottom:0.75rem}
+.faq-hd p{max-width:480px;margin:0 auto}
+.faq-list{max-width:740px;margin:0 auto;display:flex;flex-direction:column;gap:0.6rem}
+.faq-item{background:var(--base);border:1px solid var(--border);border-radius:var(--r-xl);overflow:hidden;transition:border-color var(--t-fast)}
+.faq-item.open{border-color:rgba(92,138,56,0.25)}
+.faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;padding:1.2rem 1.5rem;text-align:left;cursor:none;transition:background var(--t-fast)}
+.faq-q:hover{background:rgba(255,255,255,0.02)}
+.faq-q span{font-size:0.9rem;font-weight:500;color:var(--text);padding-right:1rem;line-height:1.4}
+.faq-ico{width:26px;height:26px;border-radius:50%;background:var(--border);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem;color:var(--text-2);transition:transform var(--t-mid) var(--ease),background var(--t-fast),color var(--t-fast)}
+.faq-item.open .faq-ico{transform:rotate(45deg);background:rgba(92,138,56,0.15);color:var(--primary)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s var(--ease)}
+.faq-item.open .faq-a{max-height:400px}
+.faq-a-inner{padding:0 1.5rem 1.5rem;font-size:0.83rem;color:var(--text-2);line-height:1.8;font-weight:300}
+
+/* ══════════════════════════════
+   CTA BAND
+══════════════════════════════ */
+.cta-band{background:var(--primary);position:relative;overflow:hidden;padding:clamp(4.5rem,9vw,7.5rem) 0;text-align:center}
+/* botanical texture overlay */
+.cta-band::before{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cellipse cx='100' cy='100' rx='40' ry='70' fill='none' stroke='rgba(255,255,255,0.08)' stroke-width='1' transform='rotate(-20 100 100)'/%3E%3Cellipse cx='60' cy='80' rx='25' ry='45' fill='none' stroke='rgba(255,255,255,0.05)' stroke-width='1' transform='rotate(15 60 80)'/%3E%3Cellipse cx='150' cy='130' rx='30' ry='55' fill='none' stroke='rgba(255,255,255,0.06)' stroke-width='1' transform='rotate(-10 150 130)'/%3E%3C/svg%3E");background-size:200px 200px;pointer-events:none}
+.cta-band-inner{position:relative;z-index:1}
+.cta-band h2{font-family:var(--font-disp);font-size:clamp(2.5rem,5.5vw,4.5rem);font-weight:400;color:#fff;margin-bottom:0.85rem;letter-spacing:-0.025em}
+.cta-band h2 em{font-style:italic;opacity:0.85}
+.cta-band p{font-size:clamp(1rem,1.4vw,1.12rem);color:rgba(255,255,255,0.75);max-width:460px;margin:0 auto 2.5rem;font-weight:300}
+.cta-btns{display:flex;justify-content:center;align-items:center;gap:1rem;flex-wrap:wrap}
+.btn-white{background:#fff;color:var(--primary)}
+.btn-white:hover{transform:translateY(-2px);box-shadow:0 10px 36px rgba(0,0,0,0.2)}
+.btn-transp{background:rgba(255,255,255,0.12);color:#fff;border:1.5px solid rgba(255,255,255,0.3);border-radius:60px}
+.btn-transp:hover{background:rgba(255,255,255,0.22)}
+
+/* ══════════════════════════════
+   KONTAKT
+══════════════════════════════ */
+.contact{background:var(--layer);border-top:1px solid var(--border)}
+.contact-inner{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(3rem,6vw,6rem)}
+.contact-info h2{margin-bottom:1.25rem}
+.contact-info>p{line-height:1.85;margin-bottom:2rem}
+.c-details{display:flex;flex-direction:column;gap:0.75rem}
+.c-det{display:flex;align-items:flex-start;gap:0.85rem;padding:0.9rem 1rem;background:var(--base);border:1px solid var(--border);border-radius:var(--r-lg)}
+.c-det-ico{width:34px;height:34px;border-radius:50%;background:rgba(92,138,56,0.1);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.c-det-ico svg{width:15px;height:15px;fill:none;stroke:var(--primary);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.c-det strong{display:block;font-size:0.68rem;font-weight:600;color:var(--text-2);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.2rem}
+.c-det a,.c-det span{font-size:0.86rem;color:var(--text);font-weight:400}
+.c-det a:hover{color:var(--primary)}
+.c-social{display:flex;gap:0.5rem;margin-top:1rem}
+.soc{width:38px;height:38px;border-radius:50%;background:var(--base);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;transition:all var(--t-fast);color:var(--text-2)}
+.soc:hover{background:var(--primary);border-color:var(--primary);color:#fff}
+.soc svg{width:15px;height:15px;fill:currentColor}
+
+/* Form */
+.c-form{background:var(--base);border:1px solid var(--border);border-radius:var(--r-xl);padding:clamp(1.75rem,3vw,2.5rem)}
+.form-title{font-family:var(--font-disp);font-size:1.4rem;font-weight:400;color:var(--text);margin-bottom:1.75rem;font-style:italic}
+.form-g{display:grid;grid-template-columns:1fr 1fr;gap:0.85rem}
+.fg{display:flex;flex-direction:column;gap:0.35rem}
+.fg.full{grid-column:1/-1}
+.fg label{font-size:0.68rem;font-weight:500;color:var(--text-2);letter-spacing:0.1em;text-transform:uppercase}
+.fi,.fs,.ft{background:var(--layer);border:1px solid var(--border-m);border-radius:var(--r-lg);color:var(--text);font-size:0.86rem;font-weight:300;padding:0.75rem 1rem;width:100%;outline:none;appearance:none;transition:border-color var(--t-fast),box-shadow var(--t-fast)}
+.fi:focus,.fs:focus,.ft:focus{border-color:var(--primary);box-shadow:0 0 0 3px var(--primary-glow)}
+.fi::placeholder,.ft::placeholder{color:var(--text-3)}
+.ft{resize:vertical;min-height:95px}
+.fs{cursor:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%235C8A38' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 0.9rem center;background-size:13px;padding-right:2.5rem}
+.f-privacy{font-size:0.7rem;color:var(--text-3);line-height:1.6;grid-column:1/-1}
+.f-privacy a{color:var(--primary)}
+.f-submit{background:var(--primary);color:#fff;padding:0.9rem 2rem;border-radius:60px;font-size:0.86rem;font-weight:500;width:100%;display:flex;align-items:center;justify-content:center;gap:0.5rem;transition:background var(--t-fast),transform var(--t-fast),box-shadow var(--t-mid)}
+.f-submit:hover{background:var(--primary-h);transform:translateY(-1px);box-shadow:0 8px 24px var(--primary-glow)}
+.f-submit:disabled{opacity:0.6;pointer-events:none}
+
+/* Floating phone (mobile) */
+.float-ph{position:fixed;bottom:1.5rem;right:1.5rem;z-index:50;width:54px;height:54px;border-radius:50%;background:var(--primary);display:none;align-items:center;justify-content:center;box-shadow:0 4px 20px var(--primary-glow);animation:ph-pulse 3s ease-in-out infinite}
+.float-ph svg{width:22px;height:22px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* ══════════════════════════════
+   FOOTER
+══════════════════════════════ */
+.footer{background:var(--humus);border-top:1px solid var(--border);padding:clamp(3rem,6vw,5rem) 0 0}
+.footer-g{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:clamp(2rem,4vw,3.5rem);margin-bottom:3rem}
+.footer-brand{}
+.f-wordmark{font-family:var(--font-disp);font-size:1.65rem;font-weight:400;color:var(--text);line-height:1}
+.f-sub{font-size:0.6rem;color:var(--text-3);letter-spacing:0.14em;text-transform:uppercase;margin-bottom:1rem}
+.footer-brand p{font-size:0.78rem;color:var(--text-2);line-height:1.75;font-weight:300;margin-bottom:1.25rem}
+.f-certs{display:flex;gap:0.45rem;flex-wrap:wrap}
+.f-cert{font-size:0.65rem;color:var(--text-3);padding:0.28rem 0.65rem;border:1px solid var(--border);border-radius:20px}
+.footer-col h5{font-size:0.68rem;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-3);margin-bottom:1.1rem}
+.footer-col ul{display:flex;flex-direction:column;gap:0.45rem}
+.footer-col ul a{font-size:0.8rem;color:var(--text-3);transition:color var(--t-fast);font-weight:300}
+.footer-col ul a:hover{color:var(--primary)}
+.footer-col .f-hrs p{font-size:0.8rem;color:var(--text-2);font-weight:300;margin-bottom:0.2rem}
+.footer-col .f-hrs small{font-size:0.72rem;color:var(--text-3)}
+.footer-bot{padding:1.25rem 0;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem}
+.footer-copy{font-size:0.72rem;color:var(--text-3)}
+.footer-links{display:flex;gap:1.5rem}
+.footer-links a{font-size:0.72rem;color:var(--text-3);transition:color var(--t-fast)}
+.footer-links a:hover{color:var(--text-2)}
+
+/* ══════════════════════════════
+   ANIMATIONS
+══════════════════════════════ */
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes breathe{0%,100%{box-shadow:0 0 0 0 rgba(92,138,56,0.4)}50%{box-shadow:0 0 0 7px rgba(92,138,56,0)}}
+@keyframes scroll-breath{0%,100%{opacity:.3;transform:scaleY(1)}50%{opacity:.9;transform:scaleY(.7)}}
+@keyframes ph-pulse{0%,100%{box-shadow:0 4px 20px var(--primary-glow)}50%{box-shadow:0 4px 36px var(--primary-glow),0 0 0 7px rgba(92,138,56,0.07)}}
+
+/* ══════════════════════════════
+   RESPONSIVE
+══════════════════════════════ */
+@media(max-width:1100px){
+  .hero{grid-template-columns:1fr}
+  .hero-visual{display:none}
+  .about-inner,.foerderung-inner,.area-inner,.contact-inner{grid-template-columns:1fr}
+  .about-stat{right:1rem}
+  .rev-inner{grid-template-columns:1fr}
+  .rev-cards{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:960px){
+  .usp-grid{grid-template-columns:repeat(2,1fr)}
+  .usp:nth-child(2){border-right:none}
+  .usp:nth-child(3){border-right:1px solid var(--border)}
+  .usp:nth-child(1),.usp:nth-child(2){border-bottom:1px solid var(--border)}
+  .srv-grid{grid-template-columns:1fr 1fr}
+  .srv-card.feat{grid-column:1/-1}
+  .proc-grid{grid-template-columns:repeat(2,1fr)}
+  .proj-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto}
+  .proj-card.big{grid-column:1/-1;grid-row:auto;height:280px}
+  .proj-card{height:220px}
+  .footer-g{grid-template-columns:1fr 1fr}
+  .footer-brand{grid-column:1/-1}
+}
+@media(max-width:860px){
+  .nav-links,.nav-phone,.nav-cta{display:none}
+  .burger{display:flex}
+  .stats-bar{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(2){border-right:none}
+  .stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid var(--border)}
+  .rev-cards{grid-template-columns:1fr}
+  .float-ph{display:flex}
+}
+@media(max-width:600px){
+  .hero-ctas,.cta-btns{flex-direction:column;align-items:flex-start}
+  .cta-btns{align-items:center}
+  .hero-trust{gap:0.85rem}
+  .t-sep{display:none}
+  .usp-grid{grid-template-columns:1fr}
+  .usp{border-right:none!important;border-bottom:1px solid var(--border)}
+  .usp:last-child{border-bottom:none}
+  .srv-grid,.proc-grid{grid-template-columns:1fr}
+  .srv-card.feat{grid-column:auto}
+  .proj-grid{grid-template-columns:1fr}
+  .proj-card.big,.proj-card{height:240px;grid-column:auto;grid-row:auto}
+  .form-g{grid-template-columns:1fr}
+  .footer-g{grid-template-columns:1fr}
+  .footer-bot{flex-direction:column;align-items:flex-start}
+  .stats-bar{grid-template-columns:1fr 1fr}
+}
+@media(max-width:380px){
+  .stats-bar{grid-template-columns:1fr}
+  .stat{border-right:none!important}
+}
+</style>
+</head>
+<body>
+
+<div class="cur-dot" id="cd" aria-hidden="true"></div>
+<div class="cur-ring" id="cr" aria-hidden="true"></div>
+
+<!-- ══════════════════════════════
+   NAVIGATION
+══════════════════════════════ -->
+<nav class="nav" id="nav" role="navigation" aria-label="Hauptnavigation">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo" aria-label="Gruber GmbH Startseite">
+      <div class="nav-wordmark">Gruber GmbH</div>
+      <div class="nav-sub">Garten- & Landschaftsbau</div>
+    </a>
+    <div class="nav-links">
+      <div class="nav-dd">
+        <a href="#leistungen">Leistungen</a>
+        <div class="nav-dd-menu">
+          <a href="#leistungen">Gartengestaltung</a>
+          <a href="#leistungen">Poolanlagen</a>
+          <a href="#leistungen">Naturstein & Pflaster</a>
+          <a href="#leistungen">Terrassen & Holzdecks</a>
+          <a href="#leistungen">Bewässerungssysteme</a>
+          <a href="#leistungen">Gartenpflege</a>
+        </div>
+      </div>
+      <a href="#projekte">Projekte</a>
+      <a href="#ueber-uns">Über uns</a>
+      <a href="#einsatzgebiet">Region</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+    <a href="tel:+497244720335" class="nav-phone" aria-label="Jetzt anrufen">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+      07244 720335
+    </a>
+    <a href="#kontakt" class="btn btn-leaf nav-cta btn→" aria-label="Kostenloses Angebot">Angebot</a>
+    <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="drawer" id="drawer" role="dialog" aria-label="Mobiles Menü">
+  <a href="#leistungen">Leistungen</a>
+  <a href="#projekte">Projekte</a>
+  <a href="#ueber-uns">Über uns</a>
+  <a href="#einsatzgebiet">Region</a>
+  <a href="#kontakt">Kontakt</a>
+  <a href="tel:+497244720335" class="btn btn-leaf drawer-cta">07244 720335</a>
+</div>
+
+<!-- ══════════════════════════════
+   HERO
+══════════════════════════════ -->
+<section class="hero" aria-label="Gruber GmbH – Gartengestaltung Weingarten">
+
+  <!-- Botanical background illustration -->
+  <div class="hero-botanical" aria-hidden="true">
+    <svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <!-- Main branch sweeping from bottom-right to upper-right -->
+      <path d="M1150 900 C1080 820 1020 740 1010 650 C1000 560 1060 490 1080 420 C1100 350 1070 280 1100 200 C1130 120 1180 80 1220 40" fill="none" stroke="#5C8A38" stroke-width="2" opacity="0.12"/>
+      <!-- Leaves on main branch -->
+      <ellipse cx="1040" cy="630" rx="42" ry="72" fill="none" stroke="#5C8A38" stroke-width="1.2" opacity="0.1" transform="rotate(-45 1040 630)"/>
+      <line x1="1040" y1="558" x2="1025" y2="666" stroke="#5C8A38" stroke-width="0.7" opacity="0.08"/>
+      <ellipse cx="1072" cy="500" rx="35" ry="58" fill="none" stroke="#5C8A38" stroke-width="1.1" opacity="0.09" transform="rotate(-55 1072 500)"/>
+      <line x1="1072" y1="442" x2="1060" y2="558" stroke="#5C8A38" stroke-width="0.7" opacity="0.07"/>
+      <ellipse cx="1095" cy="370" rx="30" ry="50" fill="none" stroke="#5C8A38" stroke-width="1" opacity="0.08" transform="rotate(-40 1095 370)"/>
+      <ellipse cx="1050" cy="390" rx="28" ry="46" fill="none" stroke="#5C8A38" stroke-width="1" opacity="0.07" transform="rotate(30 1050 390)"/>
+      <ellipse cx="1115" cy="255" rx="24" ry="40" fill="none" stroke="#5C8A38" stroke-width="0.9" opacity="0.07" transform="rotate(-50 1115 255)"/>
+      <!-- Secondary branch -->
+      <path d="M1050 700 C980 680 920 640 880 600 C840 560 830 510 800 480" fill="none" stroke="#5C8A38" stroke-width="1.4" opacity="0.09"/>
+      <ellipse cx="920" cy="625" rx="32" ry="52" fill="none" stroke="#5C8A38" stroke-width="1" opacity="0.08" transform="rotate(20 920 625)"/>
+      <ellipse cx="840" cy="545" rx="26" ry="42" fill="none" stroke="#5C8A38" stroke-width="0.9" opacity="0.07" transform="rotate(-15 840 545)"/>
+      <!-- Fern frond bottom-right -->
+      <path d="M1250 850 C1220 800 1190 760 1200 720" fill="none" stroke="#5C8A38" stroke-width="1.2" opacity="0.1"/>
+      <ellipse cx="1218" cy="790" rx="18" ry="30" fill="none" stroke="#5C8A38" stroke-width="0.8" opacity="0.09" transform="rotate(-60 1218 790)"/>
+      <ellipse cx="1210" cy="750" rx="15" ry="26" fill="none" stroke="#5C8A38" stroke-width="0.8" opacity="0.08" transform="rotate(25 1210 750)"/>
+      <!-- Small scattered leaves -->
+      <ellipse cx="950" cy="120" rx="18" ry="30" fill="none" stroke="#5C8A38" stroke-width="0.8" opacity="0.07" transform="rotate(20 950 120)"/>
+      <ellipse cx="1300" cy="350" rx="14" ry="24" fill="none" stroke="#5C8A38" stroke-width="0.7" opacity="0.06" transform="rotate(-30 1300 350)"/>
+      <ellipse cx="870" cy="200" rx="16" ry="28" fill="none" stroke="#5C8A38" stroke-width="0.7" opacity="0.065" transform="rotate(45 870 200)"/>
+      <!-- Grass-like blades at bottom -->
+      <path d="M1100 900 C1095 860 1105 830 1090 800" fill="none" stroke="#5C8A38" stroke-width="1" opacity="0.08"/>
+      <path d="M1140 900 C1130 855 1145 820 1135 785" fill="none" stroke="#5C8A38" stroke-width="1" opacity="0.07"/>
+      <path d="M1170 900 C1165 870 1175 845 1162 810" fill="none" stroke="#5C8A38" stroke-width="0.9" opacity="0.07"/>
+      <!-- Stem details / leaf midrib lines -->
+      <line x1="1038" y1="570" x2="1042" y2="692" stroke="#5C8A38" stroke-width="0.5" opacity="0.06"/>
+      <line x1="1070" y1="444" x2="1074" y2="558" stroke="#5C8A38" stroke-width="0.5" opacity="0.06"/>
+    </svg>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span class="dot" aria-hidden="true"></span>
+      Weingarten (Baden) · GaLa-Bau Fachbetrieb · Seit 2002
+    </div>
+
+    <h1>
+      <span>Gartengestaltung</span>
+      <span>in Weingarten,</span>
+      <span class="italic-line">die bleibt.</span>
+    </h1>
+
+    <p class="hero-sub">
+      Von der ersten Skizze bis zur fertigen Anlage. Pool, Terrasse, Naturstein und Bepflanzung – aus einer Hand, von einem Team das weiß, was es tut. Seit über 23 Jahren im Landkreis Karlsruhe.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="#kontakt" class="btn btn-leaf btn→" aria-label="Kostenloses Angebot anfordern">Kostenloses Angebot erhalten</a>
+      <a href="tel:+497244720335" class="btn btn-outline" aria-label="Jetzt anrufen">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        Jetzt anrufen
+      </a>
+    </div>
+    <p class="hero-micro">Kostenlos · Unverbindlich · Antwort innerhalb von 24 Stunden</p>
+
+    <div class="hero-trust">
+      <div class="trust-stars">
+        <div class="stars" aria-label="4 Komma 8 Sterne">★★★★★</div>
+        <div class="score">4,8 / 5,0</div>
+        <div class="count">aus 25+ Bewertungen</div>
+      </div>
+      <div class="t-sep" aria-hidden="true"></div>
+      <div class="t-badge"><span class="leaf-dot" aria-hidden="true"></span>GaLa-Bau BW Mitglied</div>
+      <div class="t-sep" aria-hidden="true"></div>
+      <div class="t-badge"><span class="leaf-dot" aria-hidden="true"></span>GmbH seit 2002</div>
+    </div>
+  </div>
+
+  <div class="hero-visual" aria-hidden="true">
+    <div class="hero-img">
+      <div class="hero-img-noise"></div>
+    </div>
+    <div class="hero-card">
+      <div class="hero-card-val"><em>500+</em></div>
+      <div class="hero-card-sub">Gartenprojekte im Landkreis Karlsruhe</div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scrollen</span>
+    </div>
+  </div>
+
+  <div class="stats-bar" role="region" aria-label="Kennzahlen">
+    <div class="stat" data-reveal="up" data-d="1">
+      <div class="stat-n"><em>23+</em></div>
+      <div class="stat-l">Jahre im Garten- und Landschaftsbau</div>
+    </div>
+    <div class="stat" data-reveal="up" data-d="2">
+      <div class="stat-n"><em>20+</em></div>
+      <div class="stat-l">Ausgebildete Fachkräfte im Team</div>
+    </div>
+    <div class="stat" data-reveal="up" data-d="3">
+      <div class="stat-n"><em>500+</em></div>
+      <div class="stat-l">Realisierte Gartenprojekte</div>
+    </div>
+    <div class="stat" data-reveal="up" data-d="4">
+      <div class="stat-n"><em>30 km</em></div>
+      <div class="stat-l">Einzugsgebiet rund um Weingarten</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   TICKER
+══════════════════════════════ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item">Gartengestaltung Weingarten <span class="sep">✦</span></span>
+    <span class="ticker-item">Poolbau Karlsruhe <span class="sep">✦</span></span>
+    <span class="ticker-item">Natursteinarbeiten <span class="sep">✦</span></span>
+    <span class="ticker-item">Terrassenbau Landkreis Karlsruhe <span class="sep">✦</span></span>
+    <span class="ticker-item">Bewässerungssysteme <span class="sep">✦</span></span>
+    <span class="ticker-item">Landschaftsbau seit 2002 <span class="sep">✦</span></span>
+    <span class="ticker-item">GaLa-Bau Fachbetrieb BW <span class="sep">✦</span></span>
+    <span class="ticker-item">Gartenpflege Weingarten <span class="sep">✦</span></span>
+    <span class="ticker-item">Dachbegrünung <span class="sep">✦</span></span>
+    <span class="ticker-item">Zaunanlagen & Sichtschutz <span class="sep">✦</span></span>
+    <span class="ticker-item">Gartengestaltung Weingarten <span class="sep">✦</span></span>
+    <span class="ticker-item">Poolbau Karlsruhe <span class="sep">✦</span></span>
+    <span class="ticker-item">Natursteinarbeiten <span class="sep">✦</span></span>
+    <span class="ticker-item">Terrassenbau Landkreis Karlsruhe <span class="sep">✦</span></span>
+    <span class="ticker-item">Bewässerungssysteme <span class="sep">✦</span></span>
+    <span class="ticker-item">Landschaftsbau seit 2002 <span class="sep">✦</span></span>
+    <span class="ticker-item">GaLa-Bau Fachbetrieb BW <span class="sep">✦</span></span>
+    <span class="ticker-item">Gartenpflege Weingarten <span class="sep">✦</span></span>
+    <span class="ticker-item">Dachbegrünung <span class="sep">✦</span></span>
+    <span class="ticker-item">Zaunanlagen & Sichtschutz <span class="sep">✦</span></span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+   USP STRIP
+══════════════════════════════ -->
+<section class="usp-strip" aria-label="Unsere Stärken">
+  <div class="container">
+    <div class="usp-grid">
+      <div class="usp" data-reveal="up" data-d="1">
+        <div class="usp-leaf" aria-hidden="true">
+          <!-- Leaf icon -->
+          <svg viewBox="0 0 24 24"><path d="M12 2C6 2 3 8 3 12c0 5 3.5 9 9 10 5.5-1 9-5 9-10 0-4-3-10-9-10z"/><path d="M12 2v20"/><path d="M12 7C9 9 7 11 7 14"/><path d="M12 7c3 2 5 4 5 7"/></svg>
+        </div>
+        <div class="usp-title">Zertifizierter Fachbetrieb</div>
+        <div class="usp-desc">Mitglied im GaLa-Bau Verband Baden-Württemberg – geprüfte Qualität, regelmäßige Weiterbildung, anerkannte Fachstandards.</div>
+      </div>
+      <div class="usp" data-reveal="up" data-d="2">
+        <div class="usp-leaf" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="usp-title">Termintreu & verlässlich</div>
+        <div class="usp-desc">Verbindlicher Zeitplan, kein Verschwinden auf der Baustelle. Was wir zusagen, das halten wir – zu jedem Wetter und für jedes Projekt.</div>
+      </div>
+      <div class="usp" data-reveal="up" data-d="3">
+        <div class="usp-leaf" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9z"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <div class="usp-title">Festpreise ohne Überraschungen</div>
+        <div class="usp-desc">Detailliertes Festpreisangebot vor Beginn. Kein Nachtragsschock – Sie wissen von Anfang an, was Ihr Garten kostet.</div>
+      </div>
+      <div class="usp" data-reveal="up" data-d="4">
+        <div class="usp-leaf" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>
+        </div>
+        <div class="usp-title">500+ Projekte Erfahrung</div>
+        <div class="usp-desc">In 23 Jahren haben wir jeden Gartentyp gestaltet – vom Vorgarten bis zur Luxuspoolanlage. Diese Erfahrung merken Sie vom ersten Gespräch an.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   LEISTUNGEN
+══════════════════════════════ -->
+<section class="services section" id="leistungen" aria-labelledby="lh2">
+  <div class="container">
+    <div class="services-head">
+      <div>
+        <div class="label" aria-hidden="true">Leistungen</div>
+        <h2 id="lh2">Was wir für Ihren<br>Garten tun können.</h2>
+      </div>
+      <a href="#kontakt" class="btn btn-outline btn→">Alle Leistungen anfragen</a>
+    </div>
+
+    <div class="srv-grid">
+      <!-- FEATURE CARD -->
+      <div class="srv-card feat" data-reveal="scale">
+        <div class="srv-n">01</div>
+        <div class="srv-icon" aria-hidden="true">
+          <!-- Sprout/garden icon -->
+          <svg viewBox="0 0 24 24"><path d="M12 22V12"/><path d="M12 12C12 7 8 3 3 3c0 5 3 9 9 9z"/><path d="M12 12c0-5 4-9 9-9-0 5-3 9-9 9z"/></svg>
+        </div>
+        <h4>Gartengestaltung & Neuanlage</h4>
+        <p>Ihr Garten als durchdachter Gesamtentwurf – von der Bepflanzung über Wege und Terrasse bis zur Gartenbeleuchtung. Wir planen, gestalten und realisieren Außenanlagen, die zum Haus und zu Ihnen passen. Gartengestaltung in Weingarten und im gesamten Landkreis Karlsruhe.</p>
+        <div class="srv-tags">
+          <span class="tag">Gartenplanung</span><span class="tag">Neuanlage</span><span class="tag">Umgestaltung</span><span class="tag">Bepflanzung</span><span class="tag">Weingarten</span>
+        </div>
+        <div class="srv-link" aria-label="Gartengestaltung anfragen">Angebot anfragen</div>
+      </div>
+
+      <div class="srv-card" data-reveal="up" data-d="1">
+        <div class="srv-n">02</div>
+        <div class="srv-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12s1-3 4-3 4 3 4 3"/><path d="M8 12s1 3 4 3 4-3 4-3"/></svg>
+        </div>
+        <h4>Poolanlagen & Schwimmteiche</h4>
+        <p>Planung und Bau von Schwimmbädern, Naturpools und Teichanlagen – inkl. Technik, Filterung und Bepflanzung.</p>
+        <div class="srv-tags"><span class="tag">Poolbau</span><span class="tag">Teichanlage</span><span class="tag">Karlsruhe</span></div>
+        <div class="srv-link">Anfragen</div>
+      </div>
+
+      <div class="srv-card" data-reveal="up" data-d="2">
+        <div class="srv-n">03</div>
+        <div class="srv-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        </div>
+        <h4>Naturstein & Pflasterarbeiten</h4>
+        <p>Natursteinarbeiten, Pflasterbeläge und Mauerbau für Wege, Einfahrten, Treppen und Sichtschutz.</p>
+        <div class="srv-tags"><span class="tag">Naturstein</span><span class="tag">Pflaster</span><span class="tag">Mauerbau</span></div>
+        <div class="srv-link">Anfragen</div>
+      </div>
+
+      <div class="srv-card" data-reveal="up" data-d="1">
+        <div class="srv-n">04</div>
+        <div class="srv-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3" y="12" width="18" height="9" rx="2"/><path d="M3 12l9-9 9 9"/><path d="M8 21V12h8v9"/></svg>
+        </div>
+        <h4>Terrassen & Holzdecks</h4>
+        <p>Holz- und WPC-Terrassen, Treppenbau und Wegegestaltung als natürliche Verbindung zwischen Haus und Garten.</p>
+        <div class="srv-tags"><span class="tag">Holzterrasse</span><span class="tag">WPC</span><span class="tag">Treppenbau</span></div>
+        <div class="srv-link">Anfragen</div>
+      </div>
+
+      <div class="srv-card" data-reveal="up" data-d="2">
+        <div class="srv-n">05</div>
+        <div class="srv-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><circle cx="12" cy="12" r="4"/><path d="M6 18c0-3 6-8 6-8s6 5 6 8a6 6 0 01-12 0z"/></svg>
+        </div>
+        <h4>Bewässerung & Gartenbeleuchtung</h4>
+        <p>Automatische Bewässerungssysteme, Regenwassernutzung und Gartenbeleuchtung für einen pflegeleichten Garten.</p>
+        <div class="srv-tags"><span class="tag">Bewässerung</span><span class="tag">Beleuchtung</span><span class="tag">Mähroboter</span></div>
+        <div class="srv-link">Anfragen</div>
+      </div>
+
+      <div class="srv-card" data-reveal="up" data-d="3">
+        <div class="srv-n">06</div>
+        <div class="srv-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 22c0-8-8-10-8-10s0 8 8 10z"/><path d="M12 22c0-8 8-10 8-10s0 8-8 10z"/><path d="M12 22V8"/></svg>
+        </div>
+        <h4>Gartenpflege & Jahresbetreuung</h4>
+        <p>Gartenpflege, Gehölzschnitte, Rasenpflege und saisonale Bepflanzung als regelmäßige Betreuung.</p>
+        <div class="srv-tags"><span class="tag">Gartenpflege</span><span class="tag">Gehölzschnitt</span><span class="tag">Weingarten</span></div>
+        <div class="srv-link">Anfragen</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   ÜBER UNS
+══════════════════════════════ -->
+<section class="about section" id="ueber-uns" aria-labelledby="ah2">
+  <!-- Botanical watermark -->
+  <svg class="about-botanical" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M150 380 C100 300 80 220 100 160 C120 100 170 70 180 30" fill="none" stroke="#5C8A38" stroke-width="2"/>
+    <ellipse cx="85" cy="200" rx="45" ry="75" fill="none" stroke="#5C8A38" stroke-width="1.5" transform="rotate(-35 85 200)"/>
+    <ellipse cx="155" cy="160" rx="40" ry="65" fill="none" stroke="#5C8A38" stroke-width="1.5" transform="rotate(25 155 160)"/>
+    <ellipse cx="100" cy="110" rx="32" ry="55" fill="none" stroke="#5C8A38" stroke-width="1.2" transform="rotate(-50 100 110)"/>
+    <ellipse cx="170" cy="80" rx="25" ry="42" fill="none" stroke="#5C8A38" stroke-width="1" transform="rotate(15 170 80)"/>
+    <line x1="87" y1="125" x2="103" y2="275" stroke="#5C8A38" stroke-width="0.8" opacity="0.6"/>
+    <line x1="157" y1="95" x2="153" y2="225" stroke="#5C8A38" stroke-width="0.8" opacity="0.6"/>
+  </svg>
+
+  <div class="container">
+    <div class="about-inner">
+      <div class="about-vis" data-reveal="left">
+        <div class="about-photo" aria-label="Taijp Iljazi – Geschäftsführer Gruber GmbH">
+          <!-- 📸 Portrait Taijp Iljazi oder Teamfoto im Garten -->
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-n"><em>2002</em></div>
+          <div class="about-stat-l">Gegründet in Weingarten (Baden)</div>
+        </div>
+      </div>
+
+      <div class="about-text" data-reveal="right">
+        <div class="label" aria-hidden="true">Über uns</div>
+        <h2 id="ah2">Ein Betrieb der kennt,<br>was er tut.</h2>
+
+        <div class="about-quote">
+          <p>„Gerne berate ich Sie persönlich."</p>
+          <cite>Taijp Iljazi, Geschäftsführer</cite>
+        </div>
+
+        <p>Gruber GmbH steht seit 2002 für handwerkliche Qualität im Garten- und Landschaftsbau in Weingarten und der Region Karlsruhe. Was als kleiner Betrieb begann, ist heute ein Team von über 20 Fachkräften – Landschaftsgärtner, Pflasterer, Teichbauer – die wissen, dass ein Garten kein Projekt ist, sondern ein Ort zum Leben.</p>
+
+        <div class="strengths">
+          <div class="str-item" data-reveal="up" data-d="1">
+            <div class="str-leaf" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <div>
+              <strong>Mitglied im GaLa-Bau Verband BW</strong>
+              <span>Regelmäßig überprüfte Betriebsqualität und Weiterbildungspflicht für das gesamte Team.</span>
+            </div>
+          </div>
+          <div class="str-item" data-reveal="up" data-d="2">
+            <div class="str-leaf" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <div>
+              <strong>20+ Mitarbeiter, ein Ansprechpartner</strong>
+              <span>Ausreichend Kapazität – mit der persönlichen Betreuung eines Inhaberbetriebs.</span>
+            </div>
+          </div>
+          <div class="str-item" data-reveal="up" data-d="3">
+            <div class="str-leaf" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <div>
+              <strong>Alles aus einer Hand – kein Subunternehmer</strong>
+              <span>Von Planung über Erdarbeiten bis zur Übergabe – unser eigenes Team, von Anfang bis Ende.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="certs">
+          <span class="cert">GaLa-Bau BW Mitglied</span>
+          <span class="cert">GmbH seit 2002</span>
+          <span class="cert">20+ Fachkräfte</span>
+          <span class="cert">Landkreis Karlsruhe</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   PROJEKTE
+══════════════════════════════ -->
+<section class="projects section" id="projekte" aria-labelledby="ph2">
+  <div class="container">
+    <div class="services-head">
+      <div>
+        <div class="label" aria-hidden="true">Referenzen</div>
+        <h2 id="ph2">Gärten, die für uns sprechen.</h2>
+      </div>
+      <a href="#kontakt" class="btn btn-outline btn→">Ähnliches Projekt anfragen</a>
+    </div>
+    <div class="proj-grid" data-reveal="up">
+      <div class="proj-card big" aria-label="Terrassenanlage Naturstein Weingarten">
+        <div class="proj-photo p1"><!-- 📸 Terrasse Naturstein groß --></div>
+        <div class="proj-overlay">
+          <div class="proj-cat">Terrassengestaltung</div>
+          <div class="proj-title">Naturstein-Terrasse mit Stufenanlage</div>
+          <div class="proj-meta"><span class="proj-loc">📍 Weingarten</span><span class="proj-yr">2024</span></div>
+        </div>
+      </div>
+      <div class="proj-card" aria-label="Poolanlage Ettlingen">
+        <div class="proj-photo p2"><!-- 📸 Pool --></div>
+        <div class="proj-overlay">
+          <div class="proj-cat">Poolbau</div>
+          <div class="proj-title">Schwimmpool mit Umgestaltung</div>
+          <div class="proj-meta"><span class="proj-loc">📍 Ettlingen</span><span class="proj-yr">2023</span></div>
+        </div>
+      </div>
+      <div class="proj-card" aria-label="Gartengestaltung Stutensee">
+        <div class="proj-photo p3"><!-- 📸 Gartenanlage --></div>
+        <div class="proj-overlay">
+          <div class="proj-cat">Neugestaltung</div>
+          <div class="proj-title">Komplette Neuanlage Eigenheim</div>
+          <div class="proj-meta"><span class="proj-loc">📍 Stutensee</span><span class="proj-yr">2024</span></div>
+        </div>
+      </div>
+      <div class="proj-card" aria-label="Pflasterarbeiten Pfinztal">
+        <div class="proj-photo p4"><!-- 📸 Pflaster --></div>
+        <div class="proj-overlay">
+          <div class="proj-cat">Pflasterarbeiten</div>
+          <div class="proj-title">Einfahrt & Vorgartengestaltung</div>
+          <div class="proj-meta"><span class="proj-loc">📍 Pfinztal</span><span class="proj-yr">2023</span></div>
+        </div>
+      </div>
+      <div class="proj-card" aria-label="Teichanlage Bruchsal">
+        <div class="proj-photo p5"><!-- 📸 Teich --></div>
+        <div class="proj-overlay">
+          <div class="proj-cat">Teichanlage</div>
+          <div class="proj-title">Schwimmteich mit Bepflanzung</div>
+          <div class="proj-meta"><span class="proj-loc">📍 Bruchsal</span><span class="proj-yr">2022</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   FÖRDERUNG
+══════════════════════════════ -->
+<section class="foerderung section" id="foerderung" aria-labelledby="fh2">
+  <div class="container">
+    <div class="foerderung-inner">
+      <div class="foerderung-content" data-reveal="left">
+        <div class="label" aria-hidden="true">Mehrwert & Förderung</div>
+        <h2 id="fh2">Ihr Garten kann<br>gefördert werden.</h2>
+        <p>Viele Maßnahmen im Garten- und Landschaftsbau sind förderfähig. Als erfahrener Fachbetrieb beraten wir Sie, welche Programme für Ihr Vorhaben in Frage kommen.</p>
+        <div class="f-items">
+          <div class="f-item" data-reveal="up" data-d="1">
+            <div class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2C6 2 3 8 3 12c0 5 3.5 9 9 10 5.5-1 9-5 9-10 0-4-3-10-9-10z"/><path d="M12 2v20"/></svg></div>
+            <div><strong>KfW-Förderung Dachbegrünung</strong><span>Bis zu 30% der Kosten können über KfW-Programme bezuschusst werden.</span></div>
+          </div>
+          <div class="f-item" data-reveal="up" data-d="2">
+            <div class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 7.5 7 7.5c-.29 0-1.15.86-2.29 1.7C3.57 10.08 3 11 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6A10.97 10.97 0 0014 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 01-11.91 4.97"/></svg></div>
+            <div><strong>Regenwassernutzung & Bewässerung</strong><span>Zuschüsse für nachhaltige Bewässerungssysteme über kommunale Programme.</span></div>
+          </div>
+          <div class="f-item" data-reveal="up" data-d="3">
+            <div class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+            <div><strong>Versiegelungsflächen reduzieren</strong><span>Zuschüsse für Entsiegelungsmaßnahmen – wasserdurchlässige Beläge statt Beton.</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="foerderung-vis" data-reveal="right" aria-label="Terrassenanlage Referenz">
+        <!-- 📸 Fertige Terrassenanlage -->
+        <div class="f-badge">
+          <div class="f-badge-val">Kostenlose Beratung</div>
+          <div class="f-badge-sub">Wir prüfen Fördermöglichkeiten für Sie</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   PROZESS
+══════════════════════════════ -->
+<section class="process section" id="prozess" aria-labelledby="prh2">
+  <div class="container">
+    <div class="label" aria-hidden="true">Ablauf</div>
+    <h2 id="prh2">So einfach funktioniert<br>der Start.</h2>
+    <p style="max-width:480px;margin-top:0.5rem">Transparent von Anfang bis Ende. Kein Warten im Dunkeln – bei uns wissen Sie immer, was als Nächstes kommt.</p>
+    <div class="proc-grid" data-reveal="up">
+      <div class="proc-step">
+        <div class="proc-ghost" aria-hidden="true">01</div>
+        <div class="proc-n">Schritt 01</div>
+        <div class="proc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.72A2 2 0 014 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+        <h4>Kontakt & Erstgespräch</h4>
+        <p>Rufen Sie an oder schreiben Sie uns. Wir vereinbaren einen kostenlosen Besichtigungstermin bei Ihnen vor Ort.</p>
+      </div>
+      <div class="proc-step">
+        <div class="proc-ghost" aria-hidden="true">02</div>
+        <div class="proc-n">Schritt 02</div>
+        <div class="proc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+        <h4>Planung & Festpreisangebot</h4>
+        <p>Sie erhalten ein detailliertes Angebot mit Festpreisen, Zeitplan und Materialauflistung. Keine versteckten Kosten.</p>
+      </div>
+      <div class="proc-step">
+        <div class="proc-ghost" aria-hidden="true">03</div>
+        <div class="proc-n">Schritt 03</div>
+        <div class="proc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 22c0-8-8-10-8-10s0 8 8 10z"/><path d="M12 22c0-8 8-10 8-10s0 8-8 10z"/><path d="M12 22V8"/></svg></div>
+        <h4>Ausführung durch unser Team</h4>
+        <p>Unser Team arbeitet sauber, pünktlich und mit geprüften Materialien. Sie werden laufend informiert.</p>
+      </div>
+      <div class="proc-step">
+        <div class="proc-ghost" aria-hidden="true">04</div>
+        <div class="proc-n">Schritt 04</div>
+        <div class="proc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div>
+        <h4>Übergabe & Nachbetreuung</h4>
+        <p>Wir übergeben Ihren fertigen Garten mit allem was dazugehört – und bleiben auch danach für Sie erreichbar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   BEWERTUNGEN
+══════════════════════════════ -->
+<section class="reviews section" id="bewertungen" aria-labelledby="rh2">
+  <div class="container">
+    <div class="label" aria-hidden="true">Bewertungen</div>
+    <h2 id="rh2" style="margin-bottom:3rem">Was unsere Kunden sagen.</h2>
+    <div class="rev-inner" data-reveal="up">
+      <div>
+        <div class="rev-score-big" aria-label="4,8 Sterne">4,8</div>
+        <div class="rev-stars" aria-label="5 Sterne">★★★★★</div>
+        <div class="rev-count">aus 25+ Bewertungen</div>
+        <div class="rev-bars" aria-label="Bewertungsverteilung">
+          <div class="rev-bar"><span class="rev-bar-lbl">5</span><div class="rev-bar-track"><div class="rev-bar-fill" style="width:86%"></div></div></div>
+          <div class="rev-bar"><span class="rev-bar-lbl">4</span><div class="rev-bar-track"><div class="rev-bar-fill" style="width:10%"></div></div></div>
+          <div class="rev-bar"><span class="rev-bar-lbl">3</span><div class="rev-bar-track"><div class="rev-bar-fill" style="width:4%"></div></div></div>
+          <div class="rev-bar"><span class="rev-bar-lbl">2</span><div class="rev-bar-track"><div class="rev-bar-fill" style="width:0%"></div></div></div>
+          <div class="rev-bar"><span class="rev-bar-lbl">1</span><div class="rev-bar-track"><div class="rev-bar-fill" style="width:0%"></div></div></div>
+        </div>
+        <div class="g-badge">
+          <div class="g-dot" style="background:#4285F4"></div>
+          <div class="g-dot" style="background:#EA4335"></div>
+          <div class="g-dot" style="background:#FBBC04"></div>
+          <div class="g-dot" style="background:#34A853"></div>
+          Google Bewertungen
+        </div>
+      </div>
+      <div class="rev-cards">
+        <div class="rev-card" data-reveal="up" data-d="1">
+          <div class="rev-s" aria-label="5 Sterne">★★★★★</div>
+          <p class="rev-t">„Gruber hat unseren Garten komplett neugestaltet – Terrasse, Bepflanzung, Weg. Alles wurde sauber und termingerecht abgewickelt. Wir hätten uns das besser nicht vorstellen können."</p>
+          <div class="rev-author"><div class="rev-av" aria-hidden="true">MK</div><div><div class="rev-name">M. Krause</div><div class="rev-date">Weingarten · März 2024</div></div></div>
+        </div>
+        <div class="rev-card" data-reveal="up" data-d="2">
+          <div class="rev-s" aria-label="5 Sterne">★★★★★</div>
+          <p class="rev-t">„Pool, Terrasse, Natursteinmauer – alles von Gruber. Das Team ist professionell, pünktlich und das Ergebnis übertraf meine Erwartungen. Sehr zu empfehlen im Raum Karlsruhe."</p>
+          <div class="rev-author"><div class="rev-av" aria-hidden="true">TS</div><div><div class="rev-name">T. Schneider</div><div class="rev-date">Ettlingen · Oktober 2023</div></div></div>
+        </div>
+        <div class="rev-card" data-reveal="up" data-d="3">
+          <div class="rev-s" aria-label="5 Sterne">★★★★★</div>
+          <p class="rev-t">„Jahrelange Gartenpflege durch Gruber. Immer zuverlässig, immer auf Termin. Herr Iljazi ist ein echter Ansprechpartner – kein Callcenter, sondern echter Handwerk."</p>
+          <div class="rev-author"><div class="rev-av" aria-hidden="true">AH</div><div><div class="rev-name">A. Herrmann</div><div class="rev-date">Stutensee · Januar 2024</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   EINSATZGEBIET
+══════════════════════════════ -->
+<section class="area section" id="einsatzgebiet" aria-labelledby="arh2">
+  <div class="container">
+    <div class="area-inner">
+      <div class="area-content" data-reveal="left">
+        <div class="label" aria-hidden="true">Einsatzgebiet</div>
+        <h2 id="arh2">Gartengestaltung im<br>Landkreis Karlsruhe.</h2>
+        <p>Unsere Leistungen erbringen wir in Weingarten (Baden) und im gesamten Einzugsgebiet rund um Karlsruhe – von Bretten im Norden bis Ettlingen im Süden, von Rheinstetten im Westen bis Bruchsal im Osten.</p>
+        <p style="margin-top:0.75rem">Ob Gartengestaltung in Weingarten, Poolbau in Karlsruhe oder Terrassenbau in Stutensee – wir sind für Sie da.</p>
+        <div class="area-cities" role="list" aria-label="Einsatzgebiete">
+          <span class="city main" role="listitem">Weingarten (Baden)</span>
+          <span class="city" role="listitem">Karlsruhe</span>
+          <span class="city" role="listitem">Ettlingen</span>
+          <span class="city" role="listitem">Rastatt</span>
+          <span class="city" role="listitem">Bruchsal</span>
+          <span class="city" role="listitem">Bretten</span>
+          <span class="city" role="listitem">Stutensee</span>
+          <span class="city" role="listitem">Pfinztal</span>
+          <span class="city" role="listitem">Rheinstetten</span>
+          <span class="city" role="listitem">Durmersheim</span>
+          <span class="city" role="listitem">Malsch</span>
+          <span class="city" role="listitem">Muggensturm</span>
+          <span class="city" role="listitem">Baden-Baden</span>
+          <span class="city" role="listitem">Gaggenau</span>
+          <span class="city" role="listitem">Kuppenheim</span>
+          <span class="city" role="listitem">Bühl</span>
+          <span class="city" role="listitem">Waghäusel</span>
+          <span class="city" role="listitem">Gondelsheim</span>
+        </div>
+      </div>
+      <div class="area-vis" data-reveal="right" aria-label="Einsatzgebiet Karte">
+        <svg class="area-radar" viewBox="0 0 370 370" aria-hidden="true">
+          <circle cx="185" cy="185" r="170" fill="none" stroke="rgba(92,138,56,0.07)" stroke-width="1"/>
+          <circle cx="185" cy="185" r="125" fill="none" stroke="rgba(92,138,56,0.1)" stroke-width="1"/>
+          <circle cx="185" cy="185" r="80" fill="none" stroke="rgba(92,138,56,0.16)" stroke-width="1"/>
+          <circle cx="185" cy="185" r="38" fill="none" stroke="rgba(92,138,56,0.28)" stroke-width="1"/>
+          <line x1="185" y1="15" x2="185" y2="355" stroke="rgba(92,138,56,0.08)" stroke-width="1"/>
+          <line x1="15" y1="185" x2="355" y2="185" stroke="rgba(92,138,56,0.08)" stroke-width="1"/>
+          <line x1="65" y1="65" x2="305" y2="305" stroke="rgba(92,138,56,0.05)" stroke-width="1"/>
+          <line x1="305" y1="65" x2="65" y2="305" stroke="rgba(92,138,56,0.05)" stroke-width="1"/>
+          <!-- Center dot – Weingarten -->
+          <circle cx="185" cy="185" r="7" fill="#5C8A38" opacity="0.9"/>
+          <circle cx="185" cy="185" r="14" fill="none" stroke="#5C8A38" stroke-width="1.5" opacity="0.35"/>
+          <text x="194" y="181" font-family="DM Sans,sans-serif" font-size="9.5" fill="rgba(237,229,208,0.85)" font-weight="500">Weingarten</text>
+          <!-- Cities -->
+          <circle cx="143" cy="142" r="4" fill="rgba(92,138,56,0.55)"/><text x="96" y="139" font-family="DM Sans,sans-serif" font-size="8.5" fill="rgba(148,168,126,0.85)">Karlsruhe</text>
+          <circle cx="225" cy="160" r="3.5" fill="rgba(92,138,56,0.45)"/><text x="230" y="164" font-family="DM Sans,sans-serif" font-size="8.5" fill="rgba(148,168,126,0.75)">Bruchsal</text>
+          <circle cx="160" cy="225" r="3.5" fill="rgba(92,138,56,0.45)"/><text x="132" y="239" font-family="DM Sans,sans-serif" font-size="8.5" fill="rgba(148,168,126,0.75)">Ettlingen</text>
+          <circle cx="114" cy="185" r="3" fill="rgba(92,138,56,0.38)"/><text x="68" y="190" font-family="DM Sans,sans-serif" font-size="8" fill="rgba(148,168,126,0.65)">Rheinstetten</text>
+          <circle cx="215" cy="125" r="3" fill="rgba(92,138,56,0.38)"/><text x="219" y="129" font-family="DM Sans,sans-serif" font-size="8" fill="rgba(148,168,126,0.65)">Bretten</text>
+          <circle cx="152" cy="108" r="3" fill="rgba(92,138,56,0.35)"/><text x="124" y="105" font-family="DM Sans,sans-serif" font-size="8" fill="rgba(148,168,126,0.65)">Stutensee</text>
+          <circle cx="244" cy="216" r="2.8" fill="rgba(92,138,56,0.3)"/><text x="248" y="220" font-family="DM Sans,sans-serif" font-size="8" fill="rgba(148,168,126,0.6)">Rastatt</text>
+          <text x="155" y="160" font-family="DM Sans,sans-serif" font-size="7.5" fill="rgba(92,138,56,0.55)" text-anchor="middle">30 km</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   FAQ
+══════════════════════════════ -->
+<section class="faq section" id="faq" aria-labelledby="fqh2">
+  <div class="container">
+    <div class="faq-hd">
+      <div class="label" style="justify-content:center" aria-hidden="true">Häufige Fragen</div>
+      <h2 id="fqh2">Antworten, bevor<br>Sie fragen müssen.</h2>
+      <p>Die Fragen, die uns am häufigsten gestellt werden – ehrlich beantwortet.</p>
+    </div>
+    <div class="faq-list" id="faqList">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><span>Was kostet eine Gartengestaltung in Weingarten?</span><div class="faq-ico" aria-hidden="true">+</div></button>
+        <div class="faq-a"><div class="faq-a-inner">Die Kosten hängen stark von Größe, Leistungsumfang und Material ab. Einfache Neugestaltungen beginnen bei ca. 3.000 €, komplexe Anlagen mit Terrasse, Mauer und Pool starten bei 20.000 € aufwärts. Sie erhalten nach einem kostenlosen Besichtigungstermin ein verbindliches Festpreisangebot – damit Sie genau wissen, was Sie investieren.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><span>Wie lange dauert ein Gartenprojekt von Anfang bis Ende?</span><div class="faq-ico" aria-hidden="true">+</div></button>
+        <div class="faq-a"><div class="faq-a-inner">Kleinere Aufträge (Pflasterarbeiten, Bepflanzung) sind oft in 1–5 Tagen erledigt. Größere Projekte mit Terrasse und Mauerbau dauern 2–6 Wochen. Poolanlagen benötigen je nach Ausführung 4–10 Wochen. Den genauen Zeitplan erhalten Sie im Angebot – und wir halten ihn ein.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><span>Führen Sie Poolanlagen und Teiche auch in Karlsruhe durch?</span><div class="faq-ico" aria-hidden="true">+</div></button>
+        <div class="faq-a"><div class="faq-a-inner">Ja – Pool- und Teichanlagen gehören zu unseren Spezialisierungen. Wir realisieren Schwimmbäder, Naturpools und Gartenteiche inklusive Filtertechnik. Unser Einzugsgebiet umfasst den gesamten Landkreis Karlsruhe, Rastatt und angrenzende Regionen.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><span>Wie lange im Voraus muss ich einen Termin vereinbaren?</span><div class="faq-ico" aria-hidden="true">+</div></button>
+        <div class="faq-a"><div class="faq-a-inner">Der erste Besichtigungstermin ist meist innerhalb einer Woche möglich. Für die Ausführung empfehlen wir 6–10 Wochen im Voraus zu planen – besonders März bis Oktober. Bei dringenden Anfragen sprechen Sie uns direkt an.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><span>Gibt es KfW-Förderung oder Zuschüsse für Gartenarbeiten?</span><div class="faq-ico" aria-hidden="true">+</div></button>
+        <div class="faq-a"><div class="faq-a-inner">Ja – Dachbegrünungen, Regenwassernutzung und Entsiegelungsmaßnahmen sind über KfW-Programme oder kommunale Fördertöpfe bezuschussbar. Wir beraten Sie im Rahmen des Besichtigungstermins zu möglichen Förderungen.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><span>Machen Sie auch kleinere Aufträge wie Heckenschnitt und Gartenpflege?</span><div class="faq-ico" aria-hidden="true">+</div></button>
+        <div class="faq-a"><div class="faq-a-inner">Ja. Neben Gestaltungsprojekten übernehmen wir auch regelmäßige Gartenpflege, Gehölzschnitte, Rasenpflege und saisonale Bepflanzungen. Viele unserer Stammkunden buchen uns für die laufende Gartenbetreuung in Weingarten und Umgebung.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><span>Was unterscheidet Gruber von anderen Gartenbaubetrieben in der Region?</span><div class="faq-ico" aria-hidden="true">+</div></button>
+        <div class="faq-a"><div class="faq-a-inner">Drei Dinge: Erfahrung (23 Jahre, 500+ Projekte), Kapazität (20+ Fachkräfte bedeutet keine langen Wartezeiten) und persönliche Betreuung (direkter Ansprechpartner, kein Call-Center). Als GaLa-Bau Fachbetrieb sind wir zudem an Qualitätsstandards gebunden, die nicht jeder Betrieb erfüllt.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false"><span>Werden Subunternehmer eingesetzt oder arbeitet alles das eigene Team?</span><div class="faq-ico" aria-hidden="true">+</div></button>
+        <div class="faq-a"><div class="faq-a-inner">Alle Arbeiten führen wir mit unserem eigenen, fest angestellten Team durch. Keine Subunternehmer, keine Leiharbeiter. Das bedeutet gleichbleibende Qualität und klare Verantwortung von Anfang bis Ende.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   CTA BAND
+══════════════════════════════ -->
+<section class="cta-band" aria-label="Jetzt Angebot anfragen">
+  <div class="container cta-band-inner" data-reveal="up">
+    <h2>Ihr Garten <em>wartet schon.</em></h2>
+    <p>Holen Sie sich jetzt ein kostenloses, unverbindliches Angebot und starten Sie in die Gartensaison.</p>
+    <div class="cta-btns">
+      <a href="#kontakt" class="btn btn-white btn→">Kostenloses Angebot einholen</a>
+      <a href="tel:+497244720335" class="btn btn-transp">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        07244 720335 – Heute noch anrufen
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   KONTAKT
+══════════════════════════════ -->
+<section class="contact section" id="kontakt" aria-labelledby="ch2">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="contact-info" data-reveal="left">
+        <div class="label" aria-hidden="true">Kontakt</div>
+        <h2 id="ch2">Sprechen Sie uns an –<br>wir melden uns in 24h.</h2>
+        <p>Egal ob große Neugestaltung oder kleine Frage – wir nehmen uns Zeit für Sie.</p>
+        <div class="c-details">
+          <div class="c-det">
+            <div class="c-det-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg></div>
+            <div><strong>Telefon</strong><a href="tel:+497244720335">07244 720335</a></div>
+          </div>
+          <div class="c-det">
+            <div class="c-det-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><strong>E-Mail</strong><a href="mailto:info@gruber-weingarten.de">info@gruber-weingarten.de</a></div>
+          </div>
+          <div class="c-det">
+            <div class="c-det-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><strong>Adresse</strong><span>Rudolf-Diesel-Straße 10<br>76356 Weingarten (Baden)</span></div>
+          </div>
+          <div class="c-det">
+            <div class="c-det-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            <div><strong>Öffnungszeiten</strong><span>Mo–Fr 08:00–12:00 &amp; 14:00–16:00<br>Oder nach Vereinbarung</span></div>
+          </div>
+        </div>
+        <div class="c-social" aria-label="Social Media">
+          <a href="https://www.facebook.com/grubergartenbau" class="soc" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/gruber.gartenlandschaftsbau" class="soc" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="c-form" data-reveal="right">
+        <div class="form-title">Kostenloses Angebot anfragen</div>
+        <div class="form-g">
+          <div class="fg"><label for="fn">Ihr Name *</label><input class="fi" type="text" id="fn" name="name" placeholder="Max Mustermann" required autocomplete="name"/></div>
+          <div class="fg"><label for="fp">Telefon *</label><input class="fi" type="tel" id="fp" name="phone" placeholder="07244 …" required autocomplete="tel"/></div>
+          <div class="fg"><label for="fe">E-Mail</label><input class="fi" type="email" id="fe" name="email" placeholder="max@beispiel.de" autocomplete="email"/></div>
+          <div class="fg"><label for="fo">Ort</label><input class="fi" type="text" id="fo" name="ort" placeholder="Weingarten, Karlsruhe …"/></div>
+          <div class="fg full"><label for="fl">Gewünschte Leistung *</label>
+            <select class="fs" id="fl" name="leistung" required>
+              <option value="" disabled selected>Bitte wählen…</option>
+              <option>Gartengestaltung / Neuanlage</option>
+              <option>Umgestaltung vorhandener Garten</option>
+              <option>Poolanlage / Schwimmteich</option>
+              <option>Terrasse / Holzdeck</option>
+              <option>Naturstein / Pflasterarbeiten</option>
+              <option>Bewässerungssystem / Gartenbeleuchtung</option>
+              <option>Gartenpflege / Jahresbetreuung</option>
+              <option>Dachbegrünung</option>
+              <option>Zaunanlagen / Sichtschutz</option>
+              <option>Sonstiges / Mehrere Leistungen</option>
+            </select>
+          </div>
+          <div class="fg full"><label for="fmsg">Kurze Beschreibung (optional)</label><textarea class="ft" id="fmsg" name="nachricht" placeholder="Was soll entstehen? Größe des Gartens, Wünsche …"></textarea></div>
+          <div class="f-privacy">Mit dem Absenden erklären Sie sich mit unserer <a href="/datenschutz">Datenschutzerklärung</a> einverstanden.</div>
+          <div class="fg full"><button type="button" class="f-submit" id="fsub">Kostenloses Angebot anfordern →</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   FOOTER
+══════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-g">
+      <div class="footer-brand">
+        <div class="f-wordmark">Gruber GmbH</div>
+        <div class="f-sub">Garten- & Landschaftsbau</div>
+        <p>Ihr Fachbetrieb für Gartengestaltung, Poolbau, Naturstein und Gartenpflege im Landkreis Karlsruhe. Seit 2002 in Weingarten (Baden) verwurzelt.</p>
+        <div class="f-certs">
+          <span class="f-cert">GaLa-Bau BW</span>
+          <span class="f-cert">GmbH seit 2002</span>
+          <span class="f-cert">20+ Fachkräfte</span>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Leistungen</h5>
+        <ul>
+          <li><a href="#leistungen">Gartengestaltung Weingarten</a></li>
+          <li><a href="#leistungen">Poolbau Karlsruhe</a></li>
+          <li><a href="#leistungen">Naturstein & Pflaster</a></li>
+          <li><a href="#leistungen">Terrassenbau</a></li>
+          <li><a href="#leistungen">Bewässerungssysteme</a></li>
+          <li><a href="#leistungen">Gartenpflege</a></li>
+          <li><a href="#leistungen">Dachbegrünung</a></li>
+          <li><a href="#leistungen">Zaunanlagen & Sichtschutz</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#projekte">Projekte</a></li>
+          <li><a href="#ueber-uns">Über uns</a></li>
+          <li><a href="#einsatzgebiet">Einsatzgebiet</a></li>
+          <li><a href="#bewertungen">Bewertungen</a></li>
+          <li><a href="#faq">Häufige Fragen</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Kontakt</h5>
+        <p style="font-size:.8rem;color:var(--text-2);font-weight:300;margin-bottom:.5rem">Rudolf-Diesel-Straße 10<br>76356 Weingarten (Baden)</p>
+        <a href="tel:+497244720335" style="font-size:.82rem;color:var(--primary);display:block;margin-bottom:.35rem">07244 720335</a>
+        <a href="mailto:info@gruber-weingarten.de" style="font-size:.8rem;color:var(--text-2)">info@gruber-weingarten.de</a>
+        <div class="f-hrs" style="margin-top:1rem">
+          <p>Mo–Fr 08:00–12:00 Uhr</p>
+          <p>Mo–Fr 14:00–16:00 Uhr</p>
+          <small>Oder nach Vereinbarung</small>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bot">
+      <div class="footer-copy">© 2025 Gruber GmbH Garten- und Landschaftsbau · Weingarten (Baden)</div>
+      <div class="footer-links">
+        <a href="/impressum">Impressum</a>
+        <a href="/datenschutz">Datenschutz</a>
+        <a href="/agb">AGB</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating phone (mobile) -->
+<a href="tel:+497244720335" class="float-ph" aria-label="Jetzt anrufen">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+</a>
+
+<script>
+/* ── Cursor ── */
+(function(){
+  if(!window.matchMedia('(hover:hover)').matches)return;
+  const d=document.getElementById('cd'),r=document.getElementById('cr');
+  if(!d||!r)return;
+  let mx=0,my=0,rx=0,ry=0;
+  document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;d.style.left=mx+'px';d.style.top=my+'px'});
+  (function loop(){rx+=(mx-rx)*.11;ry+=(my-ry)*.11;r.style.left=rx+'px';r.style.top=ry+'px';requestAnimationFrame(loop)})();
+  document.querySelectorAll('a,button,.srv-card,.proj-card,.faq-q,.city,.usp').forEach(el=>{
+    el.addEventListener('mouseenter',()=>document.body.classList.add('hovering'));
+    el.addEventListener('mouseleave',()=>document.body.classList.remove('hovering'));
+  });
+})();
+
+/* ── Nav scroll ── */
+(function(){
+  const nav=document.getElementById('nav');
+  if(!nav)return;
+  let t=false;
+  window.addEventListener('scroll',()=>{if(!t){requestAnimationFrame(()=>{nav.classList.toggle('stuck',scrollY>60);t=false});t=true}},{passive:true});
+})();
+
+/* ── Burger ── */
+(function(){
+  const b=document.getElementById('burger'),dr=document.getElementById('drawer');
+  if(!b||!dr)return;
+  let o=false;
+  function toggle(){o=!o;b.classList.toggle('open',o);dr.classList.toggle('open',o);document.body.style.overflow=o?'hidden':'';b.setAttribute('aria-expanded',o)}
+  b.addEventListener('click',toggle);
+  dr.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{if(o)toggle()}));
+})();
+
+/* ── Scroll reveal ── */
+(function(){
+  const els=document.querySelectorAll('[data-reveal]');
+  if(!els.length)return;
+  const obs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target)}});
+  },{threshold:0.07,rootMargin:'0px 0px -30px 0px'});
+  els.forEach(el=>obs.observe(el));
+})();
+
+/* ── FAQ ── */
+(function(){
+  document.querySelectorAll('.faq-item').forEach(item=>{
+    const btn=item.querySelector('.faq-q');
+    if(!btn)return;
+    btn.addEventListener('click',()=>{
+      const open=item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-q')?.setAttribute('aria-expanded','false')});
+      if(!open){item.classList.add('open');btn.setAttribute('aria-expanded','true')}
+    });
+  });
+})();
+
+/* ── Form ── */
+(function(){
+  const btn=document.getElementById('fsub');
+  if(!btn)return;
+  btn.addEventListener('click',()=>{
+    const n=document.getElementById('fn'),p=document.getElementById('fp'),l=document.getElementById('fl');
+    if(!n?.value.trim()||!p?.value.trim()||!l?.value){
+      btn.style.background='#7A3030';btn.textContent='Bitte Pflichtfelder ausfüllen';
+      setTimeout(()=>{btn.style.background='';btn.textContent='Kostenloses Angebot anfordern →'},2500);return;
+    }
+    btn.disabled=true;btn.style.background='#2E6E3A';btn.textContent='✓  Anfrage gesendet – wir melden uns!';
+  });
+})();
+
+/* ── Smooth scroll ── */
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const id=a.getAttribute('href');
+    if(id==='#')return;
+    const el=document.querySelector(id);
+    if(el){e.preventDefault();window.scrollTo({top:el.getBoundingClientRect().top+scrollY-75,behavior:'smooth'})}
+  });
+});
+</script>
+</body>
+</html>
